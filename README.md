@@ -1,6 +1,6 @@
 # A Compiler
 
-An extraordinaraily simple implementation of a BSAIC-like-dialect language to C compiler to learn the fundamentals of Compiler Design.
+An extraordinarily simple implementation of a BSAIC-like-dialect language to C compiler to learn the fundamentals of Compiler Design.
 
 It supports:
 
