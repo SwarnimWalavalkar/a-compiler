@@ -8,6 +8,7 @@ function comp {
     if [ $? -ne 0 ]; then
         echo "${TTOUTPUT}"
     else
+        mkdir -p ./build
         mv out.c ./build/${BN}.c
         cd build
         CCOUTPUT=$(${CC} -o ${BN} ${BN}.c)
